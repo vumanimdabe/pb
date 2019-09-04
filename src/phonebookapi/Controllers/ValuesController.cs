@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
+using System.Net.Sockets;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 
@@ -14,7 +16,18 @@ namespace phonebookapi.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
-            return new string[] { "value1", "value2" };
+            IPHostEntry host = Dns.GetHostEntry(Dns.GetHostName());
+            string IPAddress = string.Empty;
+            foreach (IPAddress ip in host.AddressList)
+            {
+                if (ip.AddressFamily == AddressFamily.)
+                {
+                    IPAddress = ip.ToString();
+                    break;
+                }
+            }
+
+            return new string[] { "value1", "value2", IPAddress };
         }
 
         // GET api/values/5
