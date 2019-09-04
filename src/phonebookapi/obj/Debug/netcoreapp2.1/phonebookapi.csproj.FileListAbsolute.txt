@@ -1,13 +1,13 @@
-C:\Git\Personal\pb\src\phonebookapi\obj\Debug\netcoreapp2.1\phonebookapi.csproj.CoreCompileInputs.cache
-C:\Git\Personal\pb\src\phonebookapi\obj\Debug\netcoreapp2.1\phonebookapi.AssemblyInfoInputs.cache
-C:\Git\Personal\pb\src\phonebookapi\obj\Debug\netcoreapp2.1\phonebookapi.AssemblyInfo.cs
 C:\Git\Personal\pb\src\phonebookapi\bin\Debug\netcoreapp2.1\phonebookapi.deps.json
 C:\Git\Personal\pb\src\phonebookapi\bin\Debug\netcoreapp2.1\phonebookapi.runtimeconfig.json
 C:\Git\Personal\pb\src\phonebookapi\bin\Debug\netcoreapp2.1\phonebookapi.runtimeconfig.dev.json
 C:\Git\Personal\pb\src\phonebookapi\bin\Debug\netcoreapp2.1\phonebookapi.dll
 C:\Git\Personal\pb\src\phonebookapi\bin\Debug\netcoreapp2.1\phonebookapi.pdb
+C:\Git\Personal\pb\src\phonebookapi\obj\Debug\netcoreapp2.1\phonebookapi.csproj.CoreCompileInputs.cache
 C:\Git\Personal\pb\src\phonebookapi\obj\Debug\netcoreapp2.1\phonebookapi.RazorAssemblyInfo.cache
 C:\Git\Personal\pb\src\phonebookapi\obj\Debug\netcoreapp2.1\phonebookapi.RazorAssemblyInfo.cs
+C:\Git\Personal\pb\src\phonebookapi\obj\Debug\netcoreapp2.1\phonebookapi.AssemblyInfoInputs.cache
+C:\Git\Personal\pb\src\phonebookapi\obj\Debug\netcoreapp2.1\phonebookapi.AssemblyInfo.cs
 C:\Git\Personal\pb\src\phonebookapi\obj\Debug\netcoreapp2.1\phonebookapi.RazorTargetAssemblyInfo.cache
 C:\Git\Personal\pb\src\phonebookapi\obj\Debug\netcoreapp2.1\phonebookapi.dll
 C:\Git\Personal\pb\src\phonebookapi\obj\Debug\netcoreapp2.1\phonebookapi.pdb
