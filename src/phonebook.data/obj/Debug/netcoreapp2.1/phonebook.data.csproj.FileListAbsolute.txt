@@ -6,4 +6,3 @@ C:\Git\Personal\pb\src\phonebook.data\bin\Debug\netcoreapp2.1\phonebook.data.dll
 C:\Git\Personal\pb\src\phonebook.data\bin\Debug\netcoreapp2.1\phonebook.data.pdb
 C:\Git\Personal\pb\src\phonebook.data\obj\Debug\netcoreapp2.1\phonebook.data.dll
 C:\Git\Personal\pb\src\phonebook.data\obj\Debug\netcoreapp2.1\phonebook.data.pdb
-C:\Git\Personal\pb\src\phonebook.data\obj\Debug\netcoreapp2.1\phonebook.data.csprojAssemblyReference.cache
