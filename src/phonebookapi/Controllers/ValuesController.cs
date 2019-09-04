@@ -20,7 +20,7 @@ namespace phonebookapi.Controllers
             string IPAddress = string.Empty;
             foreach (IPAddress ip in host.AddressList)
             {
-                if (ip.AddressFamily == AddressFamily.)
+                if (ip.AddressFamily == AddressFamily.InterNetwork)
                 {
                     IPAddress = ip.ToString();
                     break;
