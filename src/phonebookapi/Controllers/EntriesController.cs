@@ -40,5 +40,12 @@ namespace phonebookapi.Controllers
         {
             return await _repository.GetEntriesByPhoneNumberAsync(phoneNumber);
         }
+
+        // Post api/entries
+        [HttpPost]
+        public async Task Create([FromBody] PhoneBookEntry entry)
+        {
+            await _repository.addEntryAsync(entry);
+        }
     }
 }
