@@ -22,7 +22,7 @@
   },
   "targets": {
     ".NETCoreApp,Version=v2.1": {
-      "phonebookapi/1.0.0": {
+      "PhoneBookApi/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.App": "2.1.1",
           "Microsoft.AspNetCore.Razor.Design": "2.1.2",
@@ -30,13 +30,13 @@
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.4.10",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "2.1.9",
           "MySql.Data": "8.0.17",
-          "phonebook.data": "1.0.0"
+          "PhoneBook.Data": "1.0.0"
         },
         "runtime": {
-          "phonebookapi.dll": {}
+          "PhoneBookApi.dll": {}
         },
         "compile": {
-          "phonebookapi.dll": {}
+          "PhoneBookApi.dll": {}
         }
       },
       "BouncyCastle.NetCore/1.8.3": {
@@ -761,15 +761,15 @@
           "ref/netstandard1.3/System.Xml.XPath.XmlDocument.dll": {}
         }
       },
-      "phonebook.data/1.0.0": {
+      "PhoneBook.Data/1.0.0": {
         "dependencies": {
           "Dapper": "1.60.6"
         },
         "runtime": {
-          "phonebook.data.dll": {}
+          "PhoneBook.Data.dll": {}
         },
         "compile": {
-          "phonebook.data.dll": {}
+          "PhoneBook.Data.dll": {}
         }
       },
       "Microsoft.AspNet.WebApi.Client/5.2.6": {
@@ -3711,7 +3711,7 @@
     }
   },
   "libraries": {
-    "phonebookapi/1.0.0": {
+    "PhoneBookApi/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -4010,7 +4010,7 @@
       "path": "system.xml.xpath.xmldocument/4.0.1",
       "hashPath": "system.xml.xpath.xmldocument.4.0.1.nupkg.sha512"
     },
-    "phonebook.data/1.0.0": {
+    "PhoneBook.Data/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

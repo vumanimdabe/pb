@@ -4867,17 +4867,17 @@
           "lib/netstandard1.3/System.Xml.XPath.XmlDocument.dll": {}
         }
       },
-      "phonebook.data/1.0.0": {
+      "PhoneBook.Data/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.1",
         "dependencies": {
           "Dapper": "1.60.6"
         },
         "compile": {
-          "bin/placeholder/phonebook.data.dll": {}
+          "bin/placeholder/PhoneBook.Data.dll": {}
         },
         "runtime": {
-          "bin/placeholder/phonebook.data.dll": {}
+          "bin/placeholder/PhoneBook.Data.dll": {}
         }
       }
     }
@@ -13321,10 +13321,10 @@
         "system.xml.xpath.xmldocument.nuspec"
       ]
     },
-    "phonebook.data/1.0.0": {
+    "PhoneBook.Data/1.0.0": {
       "type": "project",
-      "path": "../phonebook.data/phonebook.data.csproj",
-      "msbuildProject": "../phonebook.data/phonebook.data.csproj"
+      "path": "../phonebook.data/PhoneBook.Data.csproj",
+      "msbuildProject": "../phonebook.data/PhoneBook.Data.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -13335,7 +13335,7 @@
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.4.10",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.1.9",
       "MySql.Data >= 8.0.17",
-      "phonebook.data >= 1.0.0"
+      "PhoneBook.Data >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -13368,8 +13368,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Git\\Personal\\pb\\src\\phonebook.data\\phonebook.data.csproj": {
-              "projectPath": "C:\\Git\\Personal\\pb\\src\\phonebook.data\\phonebook.data.csproj"
+            "C:\\Git\\Personal\\pb\\src\\phonebook.data\\PhoneBook.Data.csproj": {
+              "projectPath": "C:\\Git\\Personal\\pb\\src\\phonebook.data\\PhoneBook.Data.csproj"
             }
           }
         }

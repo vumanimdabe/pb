@@ -1,8 +1,8 @@
-C:\Git\Personal\pb\src\phonebook.data\obj\Debug\netcoreapp2.1\phonebook.data.csproj.CoreCompileInputs.cache
-C:\Git\Personal\pb\src\phonebook.data\obj\Debug\netcoreapp2.1\phonebook.data.AssemblyInfoInputs.cache
-C:\Git\Personal\pb\src\phonebook.data\obj\Debug\netcoreapp2.1\phonebook.data.AssemblyInfo.cs
-C:\Git\Personal\pb\src\phonebook.data\bin\Debug\netcoreapp2.1\phonebook.data.deps.json
-C:\Git\Personal\pb\src\phonebook.data\bin\Debug\netcoreapp2.1\phonebook.data.dll
-C:\Git\Personal\pb\src\phonebook.data\bin\Debug\netcoreapp2.1\phonebook.data.pdb
-C:\Git\Personal\pb\src\phonebook.data\obj\Debug\netcoreapp2.1\phonebook.data.dll
-C:\Git\Personal\pb\src\phonebook.data\obj\Debug\netcoreapp2.1\phonebook.data.pdb
+C:\Git\Personal\pb\src\phonebook.data\bin\Debug\netcoreapp2.1\PhoneBook.Data.deps.json
+C:\Git\Personal\pb\src\phonebook.data\bin\Debug\netcoreapp2.1\PhoneBook.Data.dll
+C:\Git\Personal\pb\src\phonebook.data\bin\Debug\netcoreapp2.1\PhoneBook.Data.pdb
+C:\Git\Personal\pb\src\phonebook.data\obj\Debug\netcoreapp2.1\PhoneBook.Data.csproj.CoreCompileInputs.cache
+C:\Git\Personal\pb\src\phonebook.data\obj\Debug\netcoreapp2.1\PhoneBook.Data.AssemblyInfoInputs.cache
+C:\Git\Personal\pb\src\phonebook.data\obj\Debug\netcoreapp2.1\PhoneBook.Data.AssemblyInfo.cs
+C:\Git\Personal\pb\src\phonebook.data\obj\Debug\netcoreapp2.1\PhoneBook.Data.dll
+C:\Git\Personal\pb\src\phonebook.data\obj\Debug\netcoreapp2.1\PhoneBook.Data.pdb

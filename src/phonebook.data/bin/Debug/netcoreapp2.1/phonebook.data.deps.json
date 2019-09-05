@@ -6,12 +6,12 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v2.1": {
-      "phonebook.data/1.0.0": {
+      "PhoneBook.Data/1.0.0": {
         "dependencies": {
           "Dapper": "1.60.6"
         },
         "runtime": {
-          "phonebook.data.dll": {}
+          "PhoneBook.Data.dll": {}
         }
       },
       "Dapper/1.60.6": {
@@ -197,7 +197,7 @@
     }
   },
   "libraries": {
-    "phonebook.data/1.0.0": {
+    "PhoneBook.Data/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

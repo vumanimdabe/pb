@@ -18,7 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\phonebook.data\phonebook.data.csproj" />
+    <ProjectReference Include="..\phonebook.data\PhoneBook.Data.csproj" />
   </ItemGroup>
 
 </Project>

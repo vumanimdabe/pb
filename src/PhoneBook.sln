@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.757
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "phonebookapi", "phonebookapi\phonebookapi.csproj", "{6B1047DF-0060-4460-8383-F95D42E1121B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhoneBookApi", "phonebookapi\PhoneBookApi.csproj", "{6B1047DF-0060-4460-8383-F95D42E1121B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "phonebook.data", "phonebook.data\phonebook.data.csproj", "{F3A85151-2A99-4BB8-B402-617E5BF695D9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhoneBook.Data", "phonebook.data\PhoneBook.Data.csproj", "{F3A85151-2A99-4BB8-B402-617E5BF695D9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
