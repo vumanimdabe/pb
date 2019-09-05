@@ -9,6 +9,12 @@ namespace PhoneBook.Pages
 {
     public class CreateModel : PageModel
     {
+        [BindProperty(SupportsGet = true)]
+        public string Name { get; set; }
+
+        [BindProperty(SupportsGet = true)]
+        public string PhoneNumber { get; set; }
+
         public void OnGet()
         {
 
