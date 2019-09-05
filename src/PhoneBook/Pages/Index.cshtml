@@ -6,8 +6,16 @@
 
 <h2>Phone Book Entries</h2>
 
+</br>
+
+<form class="form-inline mr-auto">
+    <input asp-for="SearchText" id="search" class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+    <button class="btn btn-unique btn-rounded btn-sm my-0" type="submit">Search</button>
+</form>
+
+</br>
+
 <table class="table">
-    <caption>List of users</caption>
     <thead>
         <tr>
             <th scope="col">Name</th>
@@ -18,7 +26,8 @@
 
         @foreach (var entry in Model.PhoneBookEntries)
         {
-            { <tr> <td>@entry.Name</td>  <td>@entry.PhoneNumber</td> </tr>}
+            {
+                <tr> <td>@entry.Name</td>  <td>@entry.PhoneNumber</td> </tr>}
 
         }
 

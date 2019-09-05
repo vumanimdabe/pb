@@ -14,6 +14,9 @@ namespace PhoneBook.Pages
     {
         public IEnumerable<PhoneBookEntry> PhoneBookEntries { get; set; }
 
+        [BindProperty(SupportsGet = true)]
+        public string SearchText { get; set; }
+
         private readonly IPhoneBookRepository _repository;
 
         public IndexModel(IPhoneBookRepository repository)
@@ -32,7 +35,14 @@ namespace PhoneBook.Pages
 
                 var x = await response.Content.ReadAsAsync<IEnumerable<PhoneBookEntry>>();
 
-                PhoneBookEntries = x;
+                if (!string.IsNullOrWhiteSpace(SearchText))
+                {
+                    PhoneBookEntries = x.Where(y => y.Name.Contains(SearchText, StringComparison.OrdinalIgnoreCase) || y.PhoneNumber.Contains(SearchText, StringComparison.OrdinalIgnoreCase));
+                }
+                else
+                {
+                    PhoneBookEntries = x;
+                }
             }
         }
     }
