@@ -27,6 +27,7 @@ namespace PhoneBook.Pages
         public async Task OnGet()
         {
             //http://localhost:63725/api/entries
+
             using (var client = new HttpClient())
             {
                 client.BaseAddress = new Uri("http://localhost:63725");
