@@ -9,6 +9,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhoneBook.Data", "phonebook
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneBook", "PhoneBook\PhoneBook.csproj", "{24528E33-69AA-4375-93FB-B78A55CFCE51}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{F3002403-B129-45CF-8716-752F8FDE0E1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneBook.Tests", "PhoneBook.Tests\PhoneBook.Tests.csproj", "{C93F4906-BF11-4A6D-A2F8-CE3751C1FA53}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,9 +31,16 @@ Global
 		{24528E33-69AA-4375-93FB-B78A55CFCE51}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{24528E33-69AA-4375-93FB-B78A55CFCE51}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{24528E33-69AA-4375-93FB-B78A55CFCE51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C93F4906-BF11-4A6D-A2F8-CE3751C1FA53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C93F4906-BF11-4A6D-A2F8-CE3751C1FA53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C93F4906-BF11-4A6D-A2F8-CE3751C1FA53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C93F4906-BF11-4A6D-A2F8-CE3751C1FA53}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C93F4906-BF11-4A6D-A2F8-CE3751C1FA53} = {F3002403-B129-45CF-8716-752F8FDE0E1D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8D8F4998-08E6-451E-9912-69B1A9143875}
